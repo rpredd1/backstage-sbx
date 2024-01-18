@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-doc-sbx"
+  description: "Sandboxing the document creation template"
+  annotations:
+    github.com/project-slug: jasperja/backstage-sbx
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/jasperja"
